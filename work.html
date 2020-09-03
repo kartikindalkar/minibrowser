@@ -1,0 +1,65 @@
+<style>
+.center-block {
+    margin: auto;
+    padding:15px;
+    border-radius:15px;
+    display: block;
+    height:50%;
+    width:50%;
+}
+
+.parent {  
+	display: grid;
+	place-items: center;
+}
+
+.body{
+	background-image: url('bg1.jpg');
+	height:90%;
+	background-repeat: no-repeat;
+	border:5px solid pink;
+	padding:5px;
+	margin:5px;
+}
+.btn{
+	width:5%;
+	padding:5px;
+	margin:5px;
+}
+li{
+color:blue;
+font-weight:bolder;
+}
+</style>
+<html>
+<head>
+<title>Task Bot</title>
+</head>
+<body>
+<div class="body">
+<form action="https://localhost/pyapi/newtask/work.py" method="get">
+<div class="parent">
+<h1 style="font-family:Comic Sans MS;font-style: oblique;">Mini Browser</h1>
+<input class="center-block" placeholder="Enter Your Command" type="text" name="get_cmd" />
+<input class="btn" type="submit" value="submit">
+</div>
+</form>
+<h4><strong>You Can also open cammand prompt,Notepad,calculator(calc),Wmplayer use below command or copy paste it in above box...</strong></h4>
+<ul>
+<li>cmd</li>
+<li>calc</li>
+<li>wmplayer</li>
+<li>notepad</li>
+</ul>
+
+<h4><strong>You Can use only this link in this browser Just use or copy paste it in above box :)</strong></h4>
+<ul>
+<li>google.com</li>
+<li>github.com</li>
+<li>stackoverflow.com</li>
+<li>linkedin.com</li>
+<li>facebook.com</li>
+</ul>
+</div>
+</body>
+</html>
