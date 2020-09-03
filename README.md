@@ -9,6 +9,7 @@ creating minibrowser using python API and html.
 I have create this script in windows os using xampp server for execute this script.
 if you want to execute this script then you need to small changes in xampp apache folders.
 
+Also in future we add some new fetures in this script.
 Here is some output of that script
 **This is Homepage**
 ![alt text](https://github.com/kartikindalkar/minibrowser/blob/master/minibrow-home.png)
